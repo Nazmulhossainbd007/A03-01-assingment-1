@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!--Dasiy UI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     
 
     <!--Tailwind css-->
@@ -30,6 +34,10 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+               'btn-accent-bg': '#FFDC26',
+
+                  
+                
               }
             }
           }
@@ -40,33 +48,74 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </head>
 <body>
 
-    <!--Header section-->
-    <header>
-     
+                              <!--Header section-->
+    <header class="space-y-4">
+      <section>
+        <div class="navbar bg-base-100 shadow-sm">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li><a>Find A pets</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>contact us</a></li>
+              </ul>
+            </div>
+            <img src="c1-assets/logo-header.png" alt="">
+            <a class="btn btn-ghost text-xl">Browse Pets</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg ">
+              <li><a>Find A Pests</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-2">
+            <a class="btn btn-white border border-black">Login</a>
+            <a class="btn btn-warning">Button</a>
+          </div>
+        </div>
 
+      </section>
+
+
+
+
+
+
+
+      <section>
+        <div class="hero min-h-screen-sm lg:hero-lg">
+          <div class="hero min-h-screen-sm lg:hero-lg ">
+
+            <img src="c1-assets/cat-big.png" alt="">
+              <div>
+              <h1 class="text-4xl font-bold py-6">Pamper Your Pet, Because They Deserve the Bes</h1>
+              <p class="py-6 text-gray-600">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+
+              </p>
+
+              <a class="btn btn-warning">Find A Pet</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+       
     </header>
 
 
-
-    <!--Main saection-->
+    <!--Main section-->
 
     <main></main>
 
